@@ -87,19 +87,3 @@ Users can view their activity history with pagination and also search through it
 
 ---
 
-## 📌 Project Repository
-
-**Project Name:** [Community-Based-Recycling-Tracker-citizen](https://github.com/Shariarhosain/Community-Based-Recycling-Tracker-citizen)
-
----
-
-## 📢 Contributing
-
-We welcome contributions from the community! If you'd like to contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes and commit (`git commit -m "Add new feature"`).
-4. Push to your fork (`git push origin feature-branch`).
-5. Open a Pull Request!
-
