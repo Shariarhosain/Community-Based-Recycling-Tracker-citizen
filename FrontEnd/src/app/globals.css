@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* For better handling of large messages and text wrapping */
+.alert-message-container {
+  max-width: 350px;  /* Adjust as necessary */
+  overflow: hidden;  /* Hide overflow */
+  white-space: normal;  /* Allow text to wrap */
+  text-overflow: ellipsis;  /* Add ellipsis for long text */
+}
+
+.animate-progress {
+  animation: progress-animation 1.4s linear forwards; /* You can adjust the time to make it faster */
+}
+
+@keyframes progress-animation {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.add
+{
+  margin-top: 4rem;
+
+}
+.imgg {
+  position: absolute;
+  left: 257px;
+  top: 76px;
+}
